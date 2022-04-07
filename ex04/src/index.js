@@ -6,6 +6,7 @@ var temps = [
     [91, 27, 31, 61]
 ];
 
+
 function myArrayFunction (celzius) {
     var averageDayTemp = []; 
      var sum = 0 ;
