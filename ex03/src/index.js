@@ -9,8 +9,7 @@ function myArrayFunction(myPets) {
          myPets.unshift("Lion");
       var lastPet = myNewPets.pop();
       
-      console.log(typeof(myNewPets));
-      console.log(firstPet, lastPet);
+      
       
       return myNewPets;
 }
