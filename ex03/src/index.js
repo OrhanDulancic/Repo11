@@ -1,14 +1,14 @@
 var myPetsArray = ["Dog", "Cat"];
 
 function myArrayFunction(myPets) {
-      myNewPets = myPets;
-      myPets.push("Bird", "Fish");
-      myPets.shift();
-      myPets.unshift("Lion");
-      myPets.pop();
-      var firstPet = myNewPets[0];
-      var lastPet = myNewPets[2];
-      var myNewPets = myPets;
+     var myNewPets = myPets;
+      myNewPets.push("Bird", "Fish");
+    
+      
+      var firstPet = myNewPets.shift()
+         myPets.unshift("Lion");
+      var lastPet = myNewPets.pop();
+      
       console.log(typeof(myNewPets));
       console.log(firstPet, lastPet);
       
