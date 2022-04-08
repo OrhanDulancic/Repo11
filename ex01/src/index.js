@@ -6,3 +6,4 @@ function myArrayFunction (myItems){
 }
 
 console.log(myArrayFunction(myArr));
+module.exports = myArrayFunction;
