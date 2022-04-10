@@ -1,20 +1,21 @@
 var myStr = "Paragon is the best!";
 
 function useMethods(str) {
-  var myReverse;
-  var countCharacters;
 
-  var words = str.split(" ");
+    var myReverse;
+    var countCharacters;
 
-  words = words.reverse();
+    var words = str.split(" ");
 
-  countCharacters = words.map((y) => y.length);
+    words = words.reverse();
 
-  words = words.map((z) => z.split("").reverse().join(""));
+    countCharacters = words.map((y) => y.length);
 
-  myReverse = words.join(" ");
+    words = words.map((z) => z.split("").reverse().join(""));
 
-  return { myReverse, countCharacters };
+    myReverse = words.join(" ");
+
+    return { myReverse, countCharacters };
 }
 
 console.log(useMethods(myStr));

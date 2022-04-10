@@ -1,9 +1,12 @@
+var str = "Paragon!";
+
 function myReverse(str) {
-    var newString = "";
+    let reversed = "";
     for (var i = str.length - 1; i >= 0; i--) {
-        newString += str[i];
+        reversed += str[i];
     }
-    return newString;
+    return reversed;
 }
 
+console.log(myReverse(str));
 module.exports = myReverse;
